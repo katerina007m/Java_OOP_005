@@ -9,6 +9,13 @@ public class Program {
         controller.createStudent("Dgh","Vvb","Fgh");
 
         controller.printStudents();
+
+        controller.createStudentGroup("Группа 1");
+        controller.createStudentGroup("Группа 2");
+        controller.createStudentGroup("Группа 3");
+
+        controller.printStudentGroups(); 
+       
         
     }
 }
