@@ -48,4 +48,14 @@ public class DataService {
 
     }
 
+    public List<User> getAllStudents(){
+        List<User> listUser = new ArrayList<>();
+        for (User user : listUsers) {
+            if (user instanceof Student) {
+                listUser.add(user);
+            }
+        }
+        return listUser;
+    }
+
 }
